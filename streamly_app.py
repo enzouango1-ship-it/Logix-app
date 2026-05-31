@@ -63,5 +63,4 @@ elif page == "Simulateur de Congestion":
     
     st.plotly_chart(fig_curve, use_container_width=True)
     st.metric(label="Coût estimé des surestaries / pénalités", value=f"{int(cost_actual):,} FCFA")
-```
 
